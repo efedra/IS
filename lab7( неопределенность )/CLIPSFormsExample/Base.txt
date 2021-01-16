@@ -1,0 +1,97 @@
+15
+f1 : Легкая крепость
+f2 : Средняя крепость
+f3 : Тяжелая крепость
+f4 : Очень тяжелая крепость
+f5 : Низкая стоимость
+f6 : Средняя стоимость
+f7 : Высокая стоимость
+f8 : Чайный лист
+f9 : Табачный лист "Вирджиния"
+f10 : Табачный лист "Ориентал"
+f11 : Табачный лист "Бёрли"
+f12 : Паста для кальяна
+f13 : Производство Россия
+f14 : Производство Америка
+f15 : Производство ОАЭ
+10
+s1 : Хорошая вымоченность
+s2 : Плохая вымоченность 
+s3 : Хорошая вкусопередача 
+s4 : Плохая вкусопередача 
+s5 : Промытый табак 
+s6 : Не промытый табак 
+s7 : Много мусора 
+s8 : Мало мусора 
+s9 : Быстро сгорает 
+s10 : Долго курится 
+10
+t1 : Al facker : https://static.wixstatic.com/media/eb90f3_e9c561c0d9aa40abbbb7e9170aa4ea78~mv2.jpg/v1/fill/w_498,h_498,al_c,lg_1,q_85/eb90f3_e9c561c0d9aa40abbbb7e9170aa4ea78~mv2.jpg
+t2 : Al ganza : https://b-hookah.ru/wp-content/cache/thumb/dd6dc7888_320x200.jpg
+t3 : Северный : https://shishabook.ru/wp-content/uploads/2018/08/%D0%A2%D0%B0%D0%B1%D0%B0%D0%BA-%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D0%BD%D1%8B%D0%B9.jpg
+t4 : Element : https://htreviews.org/wp-content/uploads/2020/06/IMG_1591082891.png
+t5 : Fumari : https://kalyan1.ru/image/cache/data/Fumari/fumari-cherry-500x500.jpg
+t6 : Darkside : https://kalyan.perm.ru/wp-content/uploads/2020/09/darkside-logo2.jpg
+t7 : Tangiers : https://rvbowls.ru/wp-content/uploads/2015/09/tangiers-tabak.jpg
+t8 : Duft : https://htreviews.org/wp-content/uploads/2020/02/Duft-kashmit-fir-heavy-melon-cane-mint-dragon.jpg
+t9 : Must have : https://lounge-room.ru/wp-content/uploads/2019/01/musthave.jpg
+t10 : neon : https://donkalian.ru/image/cache/catalog/tobaco/yallayl/minimamaj/4723.745-1000x1000.jpg
+58
+r1 : f1, f5 : s7
+r2 : f1 : s6
+r3 : f2, f5 : s5
+r4 : f3, f7 : s1
+r5 : f7, f8 : s1
+r6 : f6, s1, f5 : t3
+r7 : f7, s2 : t8
+r8 : f3, f10, s5 : t9
+r9 : f1, s2 : s9
+r10 : f12 : t4
+r11 : f1 : s9
+r12 : f1 : s7
+r13 : f1 : s9
+r14 : f1, s2, s9 : s6
+r15 : f1, f5, f9, f13 : t2
+r16 : f1, f9 : s4
+r17 : f1, f13 : s6
+r18 : f1, f13 : s8
+r19 : f1, f15 : s2
+r20 : f1, f5, s7, s6, s9, f9, f15 : t1
+r21 : f1, f5, f9, f13, s2, s6, s8, s9 : t2
+r22 : f2, f5, s5 : s8
+r23 : s5 : s8
+r24 : f2, f6 : s1
+r25 : s1 : s10
+r26 : f13 : s8
+r27 : f15 : s7
+r28 : f1, f13 : s9
+r29 : f1, f15 : s9
+r30 : f2, f5, s2, f10 : t3
+r31 : f9 : s9
+r32 : f1, f15 : s7
+r33 : f1, f13 : s8
+r34 : f14 : s9
+r35 : f14 : s1
+r36 : f15 : s2
+r37 : f2, f5, f13 : t3 
+r38 : s1, s5, f14, f1, f6 : t5
+r39 : f13, f5, f1 : s2
+r40 : f13, s9 : t2
+r41 : s1, s5, f14, f1, f6, f11 : t5
+r42 : f8 : s1
+r43 : f8 : s4
+r44 : s4, s1 : t10
+r45 : s4, s1, f13 : t10
+r46 : f7, f9, f10 : s8
+r47 : f7, f9, f10, f13 : s3
+r48 : f7, f9, f10, f13 : s1
+r49 : f3, f7, f11, f10, f13 : t6
+r50 : f4, f7 : s4
+r51 : s4, f14 : t7
+r52 : s1, f14 : t5
+r53 : f12, f14 : t4
+r54 : f10, f11 : s1
+t55 : s1, f13 : s3
+t56 : f4, f7 : s4
+t57 : f2, f13 : s2
+t58 : f10, f6 : s5
